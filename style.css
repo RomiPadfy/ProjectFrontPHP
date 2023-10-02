@@ -154,3 +154,45 @@ a{
 #conoceMas{
     margin: 10px;
 }
+
+
+
+
+@media  (max-width: 750px) {
+
+    #cajasOradores{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+        width: 100%;
+        height: auto;
+    }
+
+    .oradorbox{
+        width: 50%;
+        align-items: center;
+        border: 1px;
+        border-color: lightgray;
+        border-style: solid;
+    
+    }
+    
+    #paisajes{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    #imgPaisaje{
+        width: 100%;
+    }
+
+    #descripcionPaisaje{
+        width: 100%;
+        background-color: #353A40;
+    }
+}
