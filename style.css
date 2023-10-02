@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+
+    background-color: #353A40;
+    display: flex;
+    justify-content: space-around;
+}
+
+#portada{
+
+    background-image: url(img/hawaii.jpg);
+    background-size:  cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-end;
+    justify-content: center;
+}
+
+
+#texto{
+
+    display: inline-block;
+    width: 50%;
+    margin: 30px;
+    padding: auto;
+
+}
+
+h2{
+    color: white;
+}
+
+#textTexto{
+    color: white;
+}
+
+
+#descripcion{
+
+    background-color: #353A40;
+}
+
+
+footer{
+    background-color: #1F5271;
+}
+
+
+h1{
+    color: white;
+
+
+}
+
+
+.h1negro{
+
+    color: black;
+}
+
+a{
+    color: white;
+}
+
+#logo{
+
+    height: auto;
+    width: 5rem;
+}
+
+#oradores{
+    margin-top: 20px;
+}
+
+#tituloOradores{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+}
+
+#cajasOradores{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; 
+    width: 100%;
+    height: 600px;
+    
+    
+}
+
+
+
+.oradorbox{
+    width: 25%;
+    align-items: center;
+    border: 1px;
+    border-color: lightgray;
+    border-style: solid;
+
+}
+
+.imgOrador{
+
+    width: 100%;
+    height: auto;
+    align-items: center;
+
+}
+
+#oradorDesc{
+    text-align: justify;
+}
+
+#paisajes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 15px;
+}
+
+#imgPaisaje{
+    width: 50%;
+}
+
+#honolulu{
+    width: 100%
+}
+
+#descripcionPaisaje{
+    width: 50%;
+    background-color: #353A40;
+}
+
+#descripcionPaisaje p{
+    color: white;
+    margin: 10px;
+
+}
+
+#conoceMas{
+    margin: 10px;
+}
