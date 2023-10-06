@@ -8,8 +8,11 @@
 </head>
 <body>
     <header>
-        <img src="img/codoacodo.png" alt="codoACodo" id="logo">
-        <h1>Conf Bs As </h1>
+        <div id="tituloPagina">
+            <img src="img/codoacodo.png" alt="codoACodo" id="logo">
+
+            <h2>Conf Bs As </h2>
+        </div>
 
         <nav>
             <a href="">La conferencia</a>
@@ -34,11 +37,18 @@
             
             
             <div id="texto">
-                <p id="textTexto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, ex dolor mollitia ullam, qui error soluta dicta quis beatae aliquam sed inventore rerum. Inventore debitis sit ratione sed aliquid velit!</p>
+                <p id="textTexto">Bs As llega por primera vez a Argentina. Un evento
+                    para compartir con nuestra comunidad el conocimiento y experiencia
+                    de los expertos que están creando el futuro de Internet. Ven a conocer
+                    a miembros del evento, a otros estudiantes de Codo a Codo y a los oradores
+                    de primer nivel que tenemos para ti. ¡Te esperamos!
+                </p>
 
-                <button>Quiero ser orador</button>
-                <button>Comprar Tickets</button>
+            </div>
 
+            <div id="botonesPortada">
+                <button class="botonPortada"  id="boton1">Quiero ser orador</button>
+                <button  class="botonPortada" id="boton2">Comprar Tickets</button>
             </div>
 
 
@@ -48,7 +58,7 @@
 
         <section id="oradores">
 
-            <div id="tituloOradores">
+            <div class="tituloOradores">
                 <h5>Conoce a los</h5>
                 <h1 class="h1negro">Oradores</h1>
             </div>  
@@ -63,8 +73,8 @@
                     </div>
                     
                     <div id="oradorDesc">
-                        <button>Java Script</button>
-                        <button>React</button> 
+                        <button class="javaSButton">Java Script</button>
+                        <button class="reactButton">React</button> 
 
                         <h3>Steve Jobs</h3>
                         <br>
@@ -82,8 +92,8 @@
                     </div>
                     
                     <div id="oradorDesc">
-                        <button>Java Script</button>
-                        <button>React</button>
+                        <button class="javaSButton">Java Script</button>
+                        <button class="reactButton">React</button>
 
                         <h3>Bill Gates</h3>
                         <br>
@@ -101,8 +111,8 @@
                     
                     <div id="oradorDesc">
                         
-                        <button>Negocios</button>
-                        <button>Startups</button>
+                        <button id="negocio">Negocios</button>
+                        <button id="startup">Startups</button>
                         <br>
                         <h3>Ada Lovelace</h3>
                         <br>
@@ -126,9 +136,15 @@
             <div id="descripcionPaisaje">
                 <h1>Buenos Aires Octubre</h1>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste molestias animi possimus quasi mollitia, accusamus in nihil fugiat. Quidem suscipit animi reiciendis, laboriosam fugit ratione recusandae veritatis quam iusto dolore.</p>
+                <p>Buenos Aires es la provincia y localidad mas grande del estado de Argentina, en 
+                    los Estados Unidos. Honolulu es la más sureña entre las principales ciudades
+                    estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en 
+                    la costa suroeste de la isla de Oahu, la ciudad y el condado de Honolulu han
+                    formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente
+                    600 km2 de superficie).
+                </p>
 
-                <button id="conoceMas">Conoce mas</button>
+                <button id="conoceMas">Conocé más</button>
             </div>
 
 
@@ -137,21 +153,28 @@
 
         <section id="contacto">
             <div>
-                <h5>Conviertete en </h5>
-                <h1 class="h1negro">Orador</h1>
-                <p>Anotate como orador para dar una <a href="">charla ignite</a>. ¡Contanos de qué querés hablar! </p>
+                <h5 class="tituloOradores">Conviertete en </h5>
+                <h1 class="h1negro tituloOradores">Orador</h1>
+                
             </div>
 
+
             <div id="formulario">
+                
+
+                <p id="anotate">Anotate como orador para dar una <a href="" id="charla">charla ignite</a>. ¡Contanos de qué querés hablar! </p>
+                
                 <form action="">
                     <input type="text" name="nombre" id="nombre" placeholder="Nombre">
                     <input type="text" name="apellido" id="apellido" placeholder="Apellido">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="¿Sobre qué querés hablar?"></textarea>
-
-                    <p>Recuerda incluir un título para tu charla</p>
-                    <button type="submit">Enviar</button>
+                    
 
                 </form>
+
+                <textarea name="" id="" cols="30" rows="10" placeholder="¿Sobre qué querés hablar?"></textarea>
+
+                <p id="recuerda">Recuerda incluir un título para tu charla</p>
+                <button type="submit" id="botonform">Enviar</button>
 
             </div>
 
