@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="compra.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Comprar tickets</title>
 </head>
 <body>
 
-    <header>
+    <header class="comprasHead">
         <div id="tituloPagina">
             <img src="img/codoacodo.png" alt="codoACodo" id="logo">
 
@@ -16,18 +17,18 @@
         </div>
 
         <nav>
-            <a href="index.html">La conferencia</a>
-            <a href="">Los oradores</a>
-            <a href="">El lugar y la fecha</a>
-            <a href="">Convertite en orador</a>
-            <a href="">Comprar tickets</a>
+            <a href="index.html" class="enlaces">La conferencia</a>
+            <a href="" class="enlaces">Los oradores</a>
+            <a href="" class="enlaces">El lugar y la fecha</a>
+            <a href="" class="enlaces">Convertite en orador</a>
+            <a href="" class="enlaces">Comprar tickets</a>
 
         </nav>
 
     </header>
     
     <main>
-        <section id="descuentos">
+        <div id="descuentos">
             <div id="estudiante"  class="cajaDesc">
                 <h4>ESTUDIANTE</h4> <br>
                 <P>Tienen un descuento de </P> <br>
@@ -55,7 +56,7 @@
 
             </div>
 
-        </section>
+        </div>
 
         <div id="tituloDesc">
             <p>VENTA</p>
@@ -64,41 +65,49 @@
         </div>   
 
         <section id="formularioCompra">
-             
+           
 
-            <form action="" id="formCompra">
-                <div id="datos">
-                    <div id="apeNom">
-                        <input type="text" placeholder="Nombre" class="apeNomImp">
-                        <input type="text" placeholder="Apellido" class="apeNomImp">
-                    </div>
-                    <div id="mail">
-                        <input type="email" placeholder="Correo" id="correo">
-                    </div>
+            <form>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    
+                    <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                  </div>
+                  <div class="form-group col-md-6">
+                    
+                    <input type="text" class="form-control" id="apellido" placeholder="Apellido">
+                  </div>
                 </div>
-
-                <div>
-                    <p>Cantidad</p>
-                    <input type="number" placeholder="cantidad">
+                <div class="form-group">
+                  
+                  <input type="email" class="form-control" id="inputAddress" placeholder="Correo">
                 </div>
-
-                <div>
-                    <p>Categoria</p>
-                    <select name="Categoria" id="">
-                        <option value="estudiante">Estudiante</option>
-                        <option value="trainee">Trainee</option>
-                        <option value="junior">Junior</option>
+                
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputCity">Cantidad</label>
+                    <input type="number" class="form-control" id="inputCantidad" placeholder="Cantidad">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputState">Categoria</label>
+                    <select id="inputState" class="form-control">
+                      <option selected value="estudiante">Estudiante</option>
+                      <option value="trainee">Treainee</option>
+                      <option value="junior">Junior</option>
                     </select>
+                  </div>
+                  
                 </div>
-                <div>
-                    <p>Total a pagar: $</p>
-                    <p></p>
+                <div class="form-group">
+                    
+                    <input type="text" class="form-control" id="inputTotalPagar" placeholder="Total a pagar: $" >
                 </div>
-
-                <button>Borrar</button>
-                <button>Resumen</button>
-
-            </form>
+                <div  class="botones">
+                    <button type="delete" class="boton">Borrar</button>
+                    <button type="submit" class="boton">Resumen</button>
+                
+                </div>
+              </form>
 
 
         </section>
@@ -106,15 +115,15 @@
 
     </main>
 
-    <footer>
+    <footer class="foot">
 
-        <a href="">Preguntas frecuentes</a>
-        <a href="">Contactanos</a>
-        <a href="">Prensa</a>
-        <a href="">Conferencias</a>
-        <a href="">Terminos y condiciones</a>
-        <a href="">Privacidad</a>
-        <a href="">Estudiantes</a>
+        <a href="" class="enlaces">Preguntas frecuentes</a>
+        <a href="" class="enlaces">Contactanos</a>
+        <a href="" class="enlaces">Prensa</a>
+        <a href="" class="enlaces">Conferencias</a>
+        <a href="" class="enlaces">Terminos y condiciones</a>
+        <a href="" class="enlaces">Privacidad</a>
+        <a href="" class="enlaces">Estudiantes</a>
 
     </footer>
 </body>

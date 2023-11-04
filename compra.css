@@ -1,0 +1,162 @@
+/* página compra */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.comprasHead{
+
+    background-color: #353A40;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    width: 100%;
+    height: max-content;
+}
+#logo{
+
+    height: auto;
+    width: 5rem;
+}
+#tituloPagina{
+    
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+nav{
+    display: flex;
+    align-content: flex-end;
+    justify-content: space-evenly;
+    margin-right: 5px;
+}
+
+.enlaces{
+    text-decoration: none;
+    margin: 5px;
+    color: white;
+}
+
+.foot{
+    background-color: #1F5271;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+    
+
+}
+
+#descuentos{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+    height: auto;
+}
+
+.cajaDesc{
+    width: 25%;
+    display: block;
+    align-items: center;
+    margin: 5px;
+    padding: 15px;
+    text-align: center;
+    justify-content: space-between;
+    
+    
+    
+}
+
+#estudiante{
+    border: 1px;
+    border-color: blue;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+#trainee{
+    border: 1px;
+    border-color: green;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+#junior{
+    border: 1px;
+    border-color: yellow;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.porcjDesc{
+    font-size: large;
+    font-weight: bold;
+    
+}
+
+
+#tituloDesc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#formularioCompra{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+}
+
+form{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    
+    width: 80%;
+
+}
+#total{
+    
+    background-color: aquamarine;
+    border: 2px;
+    border-radius: 5px;
+    border-color: aqua;
+}
+
+.botones{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.boton{
+    display: block;
+    background-color: #97C93E;
+    border: 2px;
+    border-color: #97C93E;
+    border-radius: 3px;
+    color: white;
+    padding: 15px;
+    margin: 2px;
+    width: 50%;
+}
+
+
+#tituloDesc{
+    display: block;
+    text-align: center;
+    
+}
+
