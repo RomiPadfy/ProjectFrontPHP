@@ -307,7 +307,7 @@ textarea{
 
 input{
     margin: 10px;
-    width: 50%;
+   
     padding: 10px;
     border: 2px solid lightgray;
     border-radius: 5px
@@ -327,6 +327,135 @@ input{
     border: none;
     margin: 10px;
 }
+
+/* página compra */
+
+#descuentos{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+    height: 600px;
+}
+
+.cajaDesc{
+    width: 25%;
+    display: block;
+    align-items: center;
+    margin: 5px;
+    padding: 15px;
+    text-align: center;
+    justify-content: space-between;
+    
+    
+    
+}
+
+#estudiante{
+    border: 1px;
+    border-color: blue;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+#trainee{
+    border: 1px;
+    border-color: green;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+#junior{
+    border: 1px;
+    border-color: yellow;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.porcjDesc{
+    font-size: large;
+    font-weight: bold;
+    
+}
+
+#formularioCompra{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+    height: 600px;
+   
+}
+
+#tituloDesc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#formCompra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 5px;
+    padding: 0;
+    
+}
+
+#datos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    margin: 5px; 
+}
+
+#apeNom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+    flex-direction: row;
+
+}
+.apeNomImp{
+    width: 50%;
+}
+#mail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 5px;
+}
+
+
+
+
+#tituloDesc{
+    display: block;
+    text-align: center;
+    
+}
+#h1Compra{
+    color: black;
+}
+
+
+
+
+
 
 
 
