@@ -127,12 +127,17 @@ form{
     width: 80%;
 
 }
+
+label{
+    width: 100%;
+}
 #total{
     
     background-color: aquamarine;
     border: 2px;
     border-radius: 5px;
     border-color: aqua;
+    padding: 15px;
 }
 
 .botones{
